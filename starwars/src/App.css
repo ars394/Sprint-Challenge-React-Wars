@@ -1,8 +1,32 @@
+
+.Buttons{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 15%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+
+.Back{
+  margin-left: 30px;
+  width: 15%;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+
+.Next{
+  margin-right: 30px;
+  width: 15%;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+
 .App {
   text-align: center;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: #383232;
 }
-/* write your parent styles in here for your App.js */
